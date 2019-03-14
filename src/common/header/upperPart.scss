@@ -1,0 +1,232 @@
+.m-top{
+    background: #fff!important;
+    font: 14px/1.5 "Microsoft YaHei",tahoma,arial,sans-serif;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    .header{
+      height: 110px;
+      position: relative;
+      width: 1200px;
+      margin: 0 auto;
+      .c-enplan2018__h1optimize{
+        width: 258px;
+        float: left;
+        height: 80px;
+        font-size: 100%;
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        img{
+          margin-top: 35px !important;
+          border: 0;
+        }
+      }
+      .eduplan-province{
+        display: inline-block;
+        margin-top: 47px;
+        .text{
+          padding:2.8px 14px 2.8px 14px;;
+          background: #c7ecea;
+          border-radius: 5px;
+          display: inline-block;
+          cursor: pointer;
+          .icoImg{
+            display: inline-block;
+            margin-right: 6px;
+            vertical-align: middle;
+          }
+          em{
+            color:#0ba29a;
+          }
+        }
+        .provincelist{
+          //display: none;
+          position: absolute;
+          width: 332px;
+          height: 226px;
+          padding: 5px 12px 0;
+          background: rgba(255,255,255,0.95);
+          box-shadow: 1px 1px 6px #999;
+          border: 1px solid #e2e2e2;
+          z-index: 22;
+          span{
+            display: inline-block;
+            min-width: 54px;
+            height: 30px;
+            line-height: 30px;
+            margin-top: 6px;
+            margin-left: 8px;
+            border-radius: 3px;
+            text-align: center;
+            cursor: pointer;
+          }
+        }
+      }
+      .c-enplan2018__idealnormal{
+        background-image: url(https://static.leke.cn/images/entranceplanning/entranceplannig330-notloseyouth.png);
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 183px;
+        height: 102px;
+        margin: 3px 0 0 20px;
+        background-repeat: no-repeat;
+        vertical-align: top;
+        text-align: right;
+        cursor: pointer;
+        .c-enplan2018__idealchantip{
+          position: absolute;
+          left: 145px;
+          top: 31px;
+          width: 216px;
+          height: 30px;
+          background: url(https://static.leke.cn/images/entranceplanning/entranceplannig330-toptip2.png) no-repeat;
+        }
+      }
+      .c-member{
+        float: right;
+        width: 440px;
+        height: 100%;
+        .c-enplan2018__date{
+          margin-top: 0;
+          background: #fff;
+          float: left;
+          width: 269px;
+          height: 90px;
+          border-radius: 7px;
+          .c-enplan2018__year{
+            width: 234px;
+            height: 34px;
+            padding-left: 0;
+            margin-top: 0;
+            line-height: 26px;
+            font-size: 14px;
+            color: #fff;
+            background-image: url(https://static.leke.cn/images/entranceplanning/enplan2018-bg.png);
+            text-align: center;
+          }
+          .c-enplan2018__sum{
+            margin-bottom: 5px;
+            margin-top: 0;
+            text-align: center;
+            span{
+              display: inline-block;
+              height: 25px;
+              text-align: center;
+              i{
+                background-image: url(https://static.leke.cn/images/entranceplanning/enplan2018-background.png);
+                display: inline-block;
+                width: 14px;
+                height: 23px;
+              }
+              .ico-0{background-position:0 -389px;}
+              .ico-1{background-position:-32px -389px;}
+              .ico-2{background-position:-67px -390px;}
+              .ico-3{background-position:-101px -390px;}
+              .ico-4{background-position:-132px -390px;}
+              .ico-5{background-position:0 -420px;}
+              .ico-6{background-position:-30px -420px;}
+              .ico-7{background-position:-66px -420px;}
+              .ico-8{background-position:-100px -420px;}
+              .ico-9{background-position:-132px -420px;}
+            }
+            sub{
+              bottom: 0.15em;
+              color: #febcc3;
+              font-size: 12px;
+              position: relative;
+              line-height: 0;
+              vertical-align: baseline;
+              margin-left: 3px;
+            }
+          }
+          .c-enplan2018__sumData{
+            text-align: center;
+            margin-top: 0;
+            sub{
+              color:#febcc3;
+              font-size:12px;
+              bottom:-.25em;
+              position: relative;
+              line-height: 0;
+              vertical-align: baseline;
+              margin-left: 3px;
+            }
+            i{
+              background: url(https://static.leke.cn/images/entranceplanning/background.png) no-repeat;
+              display: inline-block;
+              width: 14px;
+              height: 23px;
+            }
+            .ico-0{background-position:0 -389px;}
+            .ico-1{background-position:-32px -389px;}
+            .ico-2{background-position:-67px -390px;}
+            .ico-3{background-position:-101px -390px;}
+            .ico-4{background-position:-132px -390px;}
+            .ico-5{background-position:0 -420px;}
+            .ico-6{background-position:-30px -420px;}
+            .ico-7{background-position:-66px -420px;}
+            .ico-8{background-position:-100px -420px;}
+            .ico-9{background-position:-132px -420px;}
+            span{
+              display: inline-block;
+              height: 25px;
+              text-align: center;
+            }
+            .hour{
+              margin-left: 5px;
+              padding: 5px 3px;
+              border-radius: 5px;
+              background: #febcc3;
+              box-sizing: content-box!important;
+            }
+            .minute{
+              margin-left: 5px;
+              padding: 5px 3px;
+              border-radius: 5px;
+              background: #febcc3;
+              box-sizing: content-box!important;
+            }
+            .second{
+              margin-left: 5px;
+              padding: 5px 3px;
+              border-radius: 5px;
+              background: #febcc3;
+              box-sizing: content-box!important;
+            }
+          }
+        }
+        .dredge{
+          box-sizing: border-box;
+          width: 154px;
+          height: 44px;
+          line-height: 44px;
+          padding-left: 13px;
+          color: #ff9900;
+          font-size: 18px;
+          border: none;
+          text-align: center;
+          background: url(https://static.leke.cn/images/entranceplanning/entranceplannig330-memberbtnbg.png) no-repeat;
+          float: right;
+          display: inline-block;
+          border-radius: 30px;
+          margin-top: 32px;
+          margin-left: 4px;
+          cursor: pointer;
+        }
+      }
+    }
+}
+:global{
+  .icon-global-zk-line{
+    margin-left: 5px;
+    vertical-align: middle;
+    color:#3bb4ae!important;
+    font-size: 13px;
+  }
+  em{
+    font-style: normal;
+  }
+}
+
+

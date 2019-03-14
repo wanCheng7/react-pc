@@ -1,0 +1,22 @@
+
+
+.college_box {
+  .name {font-size: 16px; color: #333; width: 144px;  max-height: 65px; overflow: hidden;}
+  .desc {
+    width: 100%; margin-top: 15px;
+    span {font-size: 12px; color: #999; margin-right: 10px;}
+  }
+  .label {
+    width: 100%; margin-top: 17px;
+    span {height: 15px; line-height: 15px; background-color: #f9a21d; padding: 0 5px; color: #fff; font-size: 12px; text-align: center; margin-right: 5px;}
+  }
+}
+.major_box {
+  .name {font-size: 16px; color: #333; width: 280px;  max-height: 41px; overflow: hidden;}
+  .desc {margin-top: 16px; width: 100%;  font-size: 14px; color: #999; width: 100%;}
+  .lab_box {
+    width: 100%; margin-top: 14px;
+    .lef {color: #f86b4f; font-size: 14px; float: left;}
+    .rig {color: #f86b4f; font-size: 14px; float: right;}
+  }
+}

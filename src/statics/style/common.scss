@@ -1,0 +1,11 @@
+
+// 清除浮动
+.clearfix{
+  zoom:1;
+  &:after {content:''; clear: both; display: block;}
+}
+// 核心内容
+.content_box {
+  width: 1200px;
+  margin: 0 auto;
+}
